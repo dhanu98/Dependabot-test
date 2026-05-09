@@ -1,0 +1,13 @@
+{
+  "name": "snyk-demo",
+  "version": "1.0.0",
+  "description": "Demo project for Snyk GitHub Action",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "4.16.0",
+    "lodash": "4.17.10"
+  }
+}
