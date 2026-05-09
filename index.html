@@ -1,0 +1,17 @@
+const express = require("express");
+const _ = require("lodash");
+
+const app = express();
+
+app.get("/", (req, res) => {
+    const data = { message: "Hello Snyk Demo!" };
+
+    // just using lodash for demo
+    const cloned = _.cloneDeep(data);
+
+    res.send(cloned);
+});
+
+app.listen(3000, () => {
+    console.log("Server running on http://localhost:3000");
+});
