@@ -8,6 +8,6 @@
   },
   "dependencies": {
     "express": "4.16.0",
-    "lodash": "4.17.10"
+    "lodash": "4.18.1"
   }
 }
